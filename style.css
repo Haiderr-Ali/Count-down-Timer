@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height:100vh;
+    background-color: black;
+   /* background: url(night\ sky.jpg);
+    background-size: cover; /*very important property to adjust the image properly*/
+
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color: white;
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.col{
+    width: 1000px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    
+}
+.col div{
+    width: 250px;
+    
+}
+input{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    border-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 29px;
+
+}
